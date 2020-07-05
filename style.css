@@ -1,0 +1,106 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(90deg, #525252, #cbc6ca);
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  margin: auto;
+}
+
+main {
+  display: flex;
+}
+
+h1,
+h2,
+p {
+  color: white;
+  font-weight: 100;
+  /* min-width: 350px; */
+  max-width: 600px;
+}
+
+h1 {
+  margin: 50px 30px 30px 30px;
+  font-size: 40px;
+}
+
+h2 {
+  margin: 10px 30px;
+  font-size: 32px;
+}
+
+p {
+  margin: 10px 30px;
+  font-size: 24px;
+}
+
+p a:link,
+p a:visited {
+  color: white;
+}
+
+.contacts {
+  display: flex;
+}
+
+.profile_photo {
+  margin: 50px 30px 30px 30px;
+  border-radius: 50%;
+  height: 200px;
+}
+
+.contacts .tel,
+.linkedin,
+.email,
+.github {
+  font-size: 16px;
+  border-radius: 20px;
+  background-color: white;
+  padding: 10px;
+  margin: 20px 0px 20px 30px;
+  font-weight: 400;
+}
+
+.contacts img {
+  margin-right: 5px;
+  vertical-align: middle;
+  height: 24px;
+  width: 24px;
+  opacity: 0.8;
+}
+
+a:link,
+a:visited {
+  cursor: pointer;
+  color: darkgrey;
+  padding-right: 5px;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 900px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main .profile_photo {
+    order: 0;
+  }
+
+  main .text {
+    order: 1;
+    text-align: center;
+  }
+
+  .contacts {
+    flex-direction: column;
+    align-items: center;
+  }
+}
