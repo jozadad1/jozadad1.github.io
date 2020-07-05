@@ -91,10 +91,11 @@
         <a target="_blank" href="tel:+447446875751">+ 44 7446 875751</a>
       </div>
     </div>
-    <script><script>
+    <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', function() {
-          navigator.serviceWorker.register('service-worker.js')
+          navigator.serviceWorker
+            .register('service-worker.js')
             .then(reg => {
               console.log('Service worker registered! 😎', reg);
             })
@@ -103,6 +104,6 @@
             });
         });
       }
-      </script></script>
+    </script>
   </body>
 </html>
