@@ -13,7 +13,7 @@ body {
   margin: auto;
 }
 
-main {
+container {
   display: flex;
 }
 
@@ -85,16 +85,16 @@ a:visited {
 }
 
 @media only screen and (max-width: 900px) {
-  main {
+  container {
     flex-direction: column;
     align-items: center;
   }
 
-  main .profile_photo {
+  container .profile_photo {
     order: 0;
   }
 
-  main .text {
+  container .text {
     order: 1;
     text-align: center;
   }
