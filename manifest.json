@@ -1,9 +1,9 @@
 {
-  "name": "mf",
+  "name": "mf profile",
   "theme_color": "#8b898a",
   "background_color": "#8b898a",
   "display": "standalone",
-  "orientation": "landscape",
+  "orientation": "portrait",
   "Scope": "/",
   "start_url": "/",
   "icons": [
