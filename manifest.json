@@ -1,5 +1,6 @@
 {
   "name": "mf profile",
+  "short_name": "mf",
   "theme_color": "#8b898a",
   "background_color": "#8b898a",
   "display": "standalone",
