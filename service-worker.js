@@ -2,7 +2,12 @@ const cacheName = 'cache-v1';
 const precacheResources = [
   '/',
   'index.html',
-  'styles/main.css'
+  'style.css',
+  'images/64px-Octicons-mark-github.svg.png',
+  'images/Firefly_MattFree.png',
+  'images/linkedin-icon-png--1600.png',
+  'images/mail-24px.svg',
+  'images/phone_android-24px.svg'
 ];
 
 self.addEventListener('install', event => {
